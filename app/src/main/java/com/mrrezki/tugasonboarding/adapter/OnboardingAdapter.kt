@@ -4,9 +4,9 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.lifecycle.Lifecycle
 import androidx.viewpager2.adapter.FragmentStateAdapter
-import com.mrrezki.tugasonboarding.fragment.WelcomeCalenderFragment
-import com.mrrezki.tugasonboarding.fragment.WelcomeSlideAssignFragment
-import com.mrrezki.tugasonboarding.fragment.WelcomeSuperHeroFragment
+import com.mrrezki.tugasonboarding.fragment.onboarding.WelcomeCalenderFragment
+import com.mrrezki.tugasonboarding.fragment.onboarding.WelcomeSlideAssignFragment
+import com.mrrezki.tugasonboarding.fragment.onboarding.WelcomeSuperHeroFragment
 
 class OnboardingAdapter(
     fragmentManager: FragmentManager, lifecycle: Lifecycle

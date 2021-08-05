@@ -5,6 +5,7 @@
       <map>
         <entry key="app/src/main/res/drawable/button_red.xml" value="0.2082051282051282" />
         <entry key="app/src/main/res/drawable/button_while.xml" value="0.2082051282051282" />
+        <entry key="app/src/main/res/layout/activity_auth.xml" value="0.18020833333333333" />
         <entry key="app/src/main/res/layout/activity_forgot_password.xml" value="0.1953125" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1953125" />
         <entry key="app/src/main/res/layout/activity_onboarding.xml" value="0.22" />
