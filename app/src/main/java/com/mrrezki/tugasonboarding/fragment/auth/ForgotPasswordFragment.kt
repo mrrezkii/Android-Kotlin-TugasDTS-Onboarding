@@ -5,6 +5,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
+import com.mrrezki.tugasonboarding.R
 import com.mrrezki.tugasonboarding.databinding.FragmentForgotPasswordBinding
 
 class ForgotPasswordFragment : Fragment() {
@@ -17,6 +19,17 @@ class ForgotPasswordFragment : Fragment() {
     ): View? {
         binding = FragmentForgotPasswordBinding.inflate(inflater, container, false)
         return binding.root
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        setupView()
+    }
+
+    private fun setupView() {
+        binding.btnSendRequest.setOnClickListener {
+            findNavController().navigate(R.id.action_forgotPasswordFragment_to_successFragment)
+        }
     }
 
 }

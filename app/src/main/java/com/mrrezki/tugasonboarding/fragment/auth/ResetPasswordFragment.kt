@@ -20,8 +20,15 @@ class ResetPasswordFragment : Fragment() {
         return binding.root
     }
 
-    private fun postChangePassword(view: View) {
-        Toast.makeText(requireContext(), "Reset completed", Toast.LENGTH_SHORT).show()
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        setupView()
+    }
+
+    private fun setupView() {
+        binding.btnChangePassword.setOnClickListener {
+            Toast.makeText(requireContext(), "Reset completed", Toast.LENGTH_SHORT).show()
+        }
     }
 
 }

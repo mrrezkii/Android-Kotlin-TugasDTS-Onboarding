@@ -21,13 +21,13 @@ class WelcomeBackFragment : Fragment() {
         return binding.root
     }
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
         setupView()
     }
 
     private fun setupView() {
-        binding.signIn.setOnClickListener {
+        binding.btnLogin.setOnClickListener {
             findNavController().navigate(R.id.action_welcomeBackFragment_to_resetPasswordFragment)
         }
         binding.forgotPassword.setOnClickListener {
