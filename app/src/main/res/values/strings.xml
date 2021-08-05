@@ -9,4 +9,6 @@
     <string name="new_password">New password</string>
     <string name="enter_your_reset_code">Enter your reset code</string>
     <string name="reset_code">Reset code</string>
+    <string name="send_request">Send request</string>
+    <string name="username">Username</string>
 </resources>
