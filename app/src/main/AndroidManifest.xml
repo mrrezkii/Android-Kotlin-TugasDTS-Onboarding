@@ -10,28 +10,31 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TugasOnboarding">
         <activity
-            android:name=".SuccessActivity"
+            android:name=".activity.OnboardingActivity"
             android:exported="true" />
         <activity
-            android:name=".ForgotPasswordActivity"
+            android:name=".activity.SuccessActivity"
             android:exported="true" />
         <activity
-            android:name=".ResetPasswordActivity"
+            android:name=".activity.ForgotPasswordActivity"
             android:exported="true" />
         <activity
-            android:name=".WelcomeSlideAssignActivity"
+            android:name=".activity.ResetPasswordActivity"
             android:exported="true" />
         <activity
-            android:name=".WelcomeSlideSuperHeroActivity"
+            android:name=".activity.WelcomeSlideAssignActivity"
             android:exported="true" />
         <activity
-            android:name=".WelcomeBackActivity"
+            android:name=".activity.WelcomeSlideSuperHeroActivity"
             android:exported="true" />
         <activity
-            android:name=".WelcomeSlideCalendarActivity"
+            android:name=".activity.WelcomeBackActivity"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name=".activity.WelcomeSlideCalendarActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
