@@ -2,6 +2,7 @@ package com.mrrezki.tugasonboarding.activity
 
 import android.content.Intent
 import android.os.Bundle
+import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import com.mrrezki.tugasonboarding.databinding.ActivityMainBinding
 import kotlinx.coroutines.*
@@ -35,5 +36,14 @@ class MainActivity : AppCompatActivity() {
     override fun onPause() {
         activityScope.cancel()
         super.onPause()
+    }
+
+    @Suppress("DEPRECATION")
+    override fun onResume() {
+        super.onResume()
+        window.decorView.apply {
+            systemUiVisibility =
+                View.SYSTEM_UI_FLAG_HIDE_NAVIGATION or View.SYSTEM_UI_FLAG_FULLSCREEN
+        }
     }
 }
