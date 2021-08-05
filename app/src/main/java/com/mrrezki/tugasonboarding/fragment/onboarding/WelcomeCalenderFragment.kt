@@ -1,4 +1,4 @@
-package com.mrrezki.tugasonboarding.fragment
+package com.mrrezki.tugasonboarding.fragment.onboarding
 
 import android.os.Bundle
 import android.view.LayoutInflater

@@ -11,6 +11,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TugasOnboarding.NoActionBar">
         <activity
+            android:name=".activity.AuthActivity"
+            android:exported="true" />
+        <activity
             android:name=".activity.OnboardingActivity"
             android:exported="true" />
         <activity

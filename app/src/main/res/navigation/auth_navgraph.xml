@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/auth_navgraph"
+    app:startDestination="@id/welcomeBackFragment">
+
+    <fragment
+        android:id="@+id/welcomeBackFragment"
+        android:name="com.mrrezki.tugasonboarding.fragment.auth.WelcomeBackFragment"
+        android:label="WelcomeBackFragment">
+        <action
+            android:id="@+id/action_welcomeBackFragment_to_resetPasswordFragment"
+            app:destination="@id/resetPasswordFragment" />
+        <action
+            android:id="@+id/action_welcomeBackFragment_to_forgotPasswordFragment"
+            app:destination="@id/forgotPasswordFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/resetPasswordFragment"
+        android:name="com.mrrezki.tugasonboarding.fragment.auth.ResetPasswordFragment"
+        android:label="ResetPasswordFragment" />
+    <fragment
+        android:id="@+id/successFragment"
+        android:name="com.mrrezki.tugasonboarding.fragment.auth.SuccessFragment"
+        android:label="SuccessFragment" />
+    <fragment
+        android:id="@+id/forgotPasswordFragment"
+        android:name="com.mrrezki.tugasonboarding.fragment.auth.ForgotPasswordFragment"
+        android:label="ForgotPasswordFragment">
+        <action
+            android:id="@+id/action_forgotPasswordFragment_to_successFragment"
+            app:destination="@id/successFragment" />
+    </fragment>
+</navigation>
