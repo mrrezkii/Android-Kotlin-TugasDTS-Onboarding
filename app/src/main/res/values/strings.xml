@@ -11,4 +11,6 @@
     <string name="reset_code">Reset code</string>
     <string name="send_request">Send request</string>
     <string name="username">Username</string>
+    <string name="log_in">Sign in</string>
+    <string name="get_started">Get started</string>
 </resources>
