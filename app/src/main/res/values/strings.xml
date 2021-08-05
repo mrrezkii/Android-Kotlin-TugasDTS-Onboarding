@@ -4,4 +4,9 @@
     <string name="forgot_password">Forgot password</string>
     <string name="enter_your_password">Enter your password</string>
     <string name="sign_in_to_continue">Sign in to continue</string>
+    <string name="change_password">Change password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="new_password">New password</string>
+    <string name="enter_your_reset_code">Enter your reset code</string>
+    <string name="reset_code">Reset code</string>
 </resources>
