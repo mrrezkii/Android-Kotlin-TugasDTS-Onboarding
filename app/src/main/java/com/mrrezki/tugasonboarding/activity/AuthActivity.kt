@@ -2,11 +2,17 @@ package com.mrrezki.tugasonboarding.activity
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.mrrezki.tugasonboarding.R
+import com.mrrezki.tugasonboarding.databinding.ActivityMainBinding
 
 class AuthActivity : AppCompatActivity() {
+    private val binding: ActivityMainBinding by lazy {
+        ActivityMainBinding.inflate(
+            layoutInflater
+        )
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_auth)
+        setContentView(binding.root)
     }
 }
