@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Tugas Onboarding</string>
     <string name="logo_text">DTS Kominfo</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="sign_in_to_continue">Sign in to continue</string>
 </resources>

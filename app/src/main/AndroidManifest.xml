@@ -10,6 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TugasOnboarding">
         <activity
+            android:name=".SuccessActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ForgotPasswordActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ResetPasswordActivity"
+            android:exported="true" />
+        <activity
+            android:name=".WelcomeSlideAssignActivity"
+            android:exported="true" />
+        <activity
+            android:name=".WelcomeSlideSuperHeroActivity"
+            android:exported="true" />
+        <activity
+            android:name=".WelcomeBackActivity"
+            android:exported="true" />
+        <activity
             android:name=".WelcomeSlideCalendarActivity"
             android:exported="true" />
         <activity
